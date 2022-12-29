@@ -9,8 +9,8 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class HdService {
-  hd() {
-    return 'hd serviece and';
+export class DevService {
+  get() {
+    return 'dev serviece and';
   }
 }
